@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!--font1-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Track Issue</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+           <div class="profile">
+            <span class="material-symbols-outlined">account_circle</span>
+            <h4>Profile</h4>
+           </div>
+           <div class="list">
+              <ul>
+                <li>
+                    <a href="board.html">BOARD</a>
+                </li>
+                <li>
+                    <a href="#">ISSUES</a>
+                </li>
+                <li>
+                    <a href="#">REPORTS</a>
+                </li>
+                <li>
+                    <a href="#">REPOSITORY</a>
+                </li>
+                <li>
+                    <a href="#">SETTINGS</a>
+                </li>
+              </ul>
+           </div>
+           <div class="button">
+               <button>CREATE ISSUE +</button>
+           </div>
+        </div>
+        <div class="main">
+           <div class="form">
+              <form action="">
+                 <div class="form-title">
+                    <h2>SUBMIT YOUR ISSUE HERE</h2>
+                 </div>
+                 <div class="data">
+                   <label for="Name">EMPLOYEE NAME</label><br>
+                   <input type="text" name="name" class="in">
+                 </div>
+                 <div class="data">
+                   <label for="Department">EMPLOYEE ID</label><br>
+                   <input type="text" name="department" id="" class="in">
+                 </div>
+                 <div class="data">
+                   <label for="title">ISSUE TITLE</label><br>
+                   <input type="text" name="title" id=""   class="in">
+                 </div>
+                 <div class="data">
+                   <label for="role">USER ROLE</label><br>
+                   <input type="radio" name="role" id="" value="Project Manager">PROJECT MANAGER <br>
+                   <input type="radio" name="role" id="" value="Analyst">PROJECT ANALYST <br>
+                   <input type="radio" name="role" id="" value="developer">DEVELOPER  <br>
+                   <input type="radio" name="role" id="" value="tester">TESTER
+                 </div>
+                 <div class="data">
+                   <label for="issue">ISSUE</label><br>
+                   <textarea name="issue" id="" cols="30" rows="5" class="in"></textarea>
+                 </div>
+                 <div class="data">
+                   <input type="file" accept="" class="in">
+                 </div>
+                 <div class="data">
+                    <input type="submit" name="submit" id="" value="SUBMIT ISSUE" class="in button">
+                 </div>
+              </form>
+           </div>
+        </div>
+
+    </div>
+
+    <script src="js/script.js">
+
+    </script>
+</body>
+</html>
